@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function HobbyCard({ imageSrc, title, summaryPoints, description, summaryTitle }) {
     return (
-        <div className="max-h-80 max-w-7xl w-full bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 flex flex-row h-full">
-            <div className="relative w-2xs min-w-2xs aspect-square bg-gray-100">
+        <div className="max-w-7xl w-full bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row h-full">
+            <div className="relative w-full sm:w-2xs sm:min-w-2xs aspect-square bg-gray-100">
                 <Image
                     src={imageSrc}
                     alt={title}
