@@ -1,6 +1,6 @@
 # Portfolio Website
 This is my portfolio website to display my achievements and experience.  
-Made with Next.js and Tailwind
+Made with Next.js and Tailwind and deployed on Vercel
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
