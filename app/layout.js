@@ -17,9 +17,9 @@ export const metadata = {
   title: "Hyun Tae Kim",
   description: "My Portfolio website",
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-32x32.png',
-    apple: '/apple-touch-icon.png',
+    icon: '/favicon.ico?v=2',
+    shortcut: '/favicon-32x32.png?v=2',
+    apple: '/apple-touch-icon.png?v=2',
   },
 };
 
