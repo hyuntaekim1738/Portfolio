@@ -41,7 +41,6 @@ export default function Experience() {
         Work Experience
       </h1>
 
-      {/* Cards Container */}
       <div className="flex flex-wrap justify-center gap-8">
         {experiences.map((experience, index) => (
           <div key={index} className="flex-shrink-0">

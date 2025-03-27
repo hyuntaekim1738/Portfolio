@@ -103,7 +103,6 @@ export default function Projects() {
         My Projects
       </h1>
 
-      {/* Cards Container */}
       <div className="flex flex-wrap justify-center gap-8">
         {projects.map((project, index) => (
           <div key={index} className="flex-shrink-0">

@@ -11,7 +11,6 @@ export default function NavBar() {
             Hyun Tae Kim
           </Link>
 
-          {/* Use space-x here to control the spacing between the links */}
           <div className="flex space-x-4 sm:space-x-2 lg:space-x-8">
             <Link
               href="/projects"

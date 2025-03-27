@@ -8,7 +8,6 @@ export default function Home() {
                     Hi, I'm Hyun Tae Kim
                 </h1>
 
-                {/* Profile Image */}
                 <div className="w-40 h-40 rounded-full overflow-hidden m-6 mx-auto">
                     <Image
                         src="/IMG_0934.JPG"
