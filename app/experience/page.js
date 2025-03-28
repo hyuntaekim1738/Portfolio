@@ -3,15 +3,13 @@ import JobCard from '../components/JobCard';
 export default function Experience() {
   const experiences = [
     {
-      imageSrc: '/actualArgoLogo.jpeg',
-      title: 'Argo Data Resource',
+      imageSrc: '/capitalOneLogo.jpeg',
+      title: 'Capital One',
       summaryPoints: [
-        'Collaborated as a full stack web developer using an ASP.NET framework to efficiently display and alter time-sensitive data to meet the demands of hundreds of clients through the Agile development process.',
-        'Maximized application performance and Ajax data retrieval by integrating Fluent NHibernate to process SQL operations through backend C# models and handlers to efficiently perform CRUD operations on thousands of records.',
-        'Restructured thousands of rows of complex data into visually appealing and informative formats using JavaScript and jQuery, resulting in a 70% reduction in data representation space.'
+        'Will be working as a software engineer intern in the summer of 2025.'
       ],
-      jobTitle: 'Software Engineer Intern',
-      jobDate: 'May 2023 - August 2023'
+      jobTitle: 'Technology Intern',
+      jobDate: 'Upcoming Summer 2025'
     },
     {
       imageSrc: '/GarminLogo.jpeg',
@@ -25,13 +23,15 @@ export default function Experience() {
       jobDate: 'May 2024 - August 2024'
     },
     {
-      imageSrc: '/capitalOneLogo.jpeg',
-      title: 'Capital One',
+      imageSrc: '/actualArgoLogo.jpeg',
+      title: 'Argo Data Resource',
       summaryPoints: [
-        'Will be working as a software engineer intern in the summer of 2025.'
+        'Collaborated as a full stack web developer using an ASP.NET framework to efficiently display and alter time-sensitive data to meet the demands of hundreds of clients through the Agile development process.',
+        'Maximized application performance and Ajax data retrieval by integrating Fluent NHibernate to process SQL operations through backend C# models and handlers to efficiently perform CRUD operations on thousands of records.',
+        'Restructured thousands of rows of complex data into visually appealing and informative formats using JavaScript and jQuery, resulting in a 70% reduction in data representation space.'
       ],
-      jobTitle: 'Technology Intern',
-      jobDate: 'Upcoming Summer 2025'
+      jobTitle: 'Software Engineer Intern',
+      jobDate: 'May 2023 - August 2023'
     }
   ];
 

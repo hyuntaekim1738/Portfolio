@@ -3,6 +3,16 @@ import ProjectCard from '../components/ProjectCard';
 export default function Projects() {
   const projects = [
     {
+        imageSrc: '/IMG_0934.JPG',
+        title: 'Portfolio Website',
+        summaryPoints: [
+            "Created this exact website you are on right now! It is a portfolio of my projects, experiences, and skills.",
+            "Built using Next.js, Tailwind CSS, and deployed on Vercel.",
+            "Added responsive designs for mobile, tablet, and desktop devices."
+        ],
+        technologiesUsed: ['Next.js', 'Tailwind CSS']
+    },
+    {
         imageSrc: '/bookboxdImage.jpg',
         title: 'BookBoxd',
         summaryPoints: [

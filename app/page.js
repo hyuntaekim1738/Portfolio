@@ -24,7 +24,7 @@ export default function Home() {
                     have involved <span className="font-bold">web development</span>,
                     <span className="font-bold"> mobile app development</span>,
                     <span className="font-bold"> big data management</span>, and
-                    <span className="font-bold"> artificial intelligence</span>.
+                    <span className="font-bold"> machine learning</span>.
                 </p>
             </div>
         </main>

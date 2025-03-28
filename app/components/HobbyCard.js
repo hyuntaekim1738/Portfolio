@@ -1,5 +1,25 @@
 import Image from 'next/image';
 
+function makeLinksClickable(text) {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.split(urlRegex).map((part, i) => {
+        if (part.match(urlRegex)) {
+            return (
+                <a 
+                    key={i} 
+                    href={part} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 underline"
+                >
+                    {part}
+                </a>
+            );
+        }
+        return part;
+    });
+}
+
 export default function HobbyCard({ imageSrc, title, summaryPoints, description, summaryTitle }) {
     return (
         <div className="max-w-7xl w-full bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row h-full">
@@ -16,7 +36,7 @@ export default function HobbyCard({ imageSrc, title, summaryPoints, description,
                     {title}
                 </h2>
                 <div className="mb-2 mt-2 flex-wrap">
-                    <p className="text-sm text-gray-600 break-words">{description}</p>
+                    <p className="text-sm text-gray-600 break-words">{makeLinksClickable(description)}</p>
                 </div>
                 <div className="mb-2 mt-2">
                     <h4 className="font-semibold text-gray-700 mb-2">{summaryTitle}</h4>
