@@ -108,8 +108,8 @@ export default function Projects() {
   ];
 
   return (
-    <main className="flex-grow p-4 sm:p-8 md:p-28 bg-white min-h-screen">
-      <div className="sticky top-14 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200 py-6 -mx-4 sm:-mx-8 md:-mx-28 px-4 sm:px-8 md:px-28">
+    <main className="flex-grow p-4 sm:p-8 md:p-28 pb-24 bg-white min-h-screen">
+      <div className="sticky top-12 md:top-16 z-40 bg-white/80 backdrop-blur-sm border-b border-gray-200 py-6 -mx-4 sm:-mx-8 md:-mx-28 px-4 sm:px-8 md:px-28">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 text-center">
           My Projects
         </h1>
