@@ -95,20 +95,19 @@ export default function Personal() {
       },
       ]
   return (
-    
-    <main className="flex-grow p-28 bg-white min-h-screen px-8">
-      <h1 className="w-screen -ml-8 bg-white/80 sticky top-14 z-50 text-5xl font-extrabold text-gray-900 text-center mb-12 py-6 backdrop-blur-sm border-b border-gray-200">
-        My Hobbies
-      </h1>
-      <div className="flex flex-wrap justify-center gap-8">
+    <main className="flex-grow p-4 sm:p-8 md:p-28 bg-white min-h-screen">
+      <div className="sticky top-14 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200 py-6 -mx-4 sm:-mx-8 md:-mx-28 px-4 sm:px-8 md:px-28">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 text-center">
+          My Hobbies
+        </h1>
+      </div>
+      <div className="flex flex-wrap justify-center gap-8 mt-8 sm:mt-12">
         {hobbies.map((hobby, index) => (
           <div key={index} className="w-full max-w-7xl">
             <HobbyCard {...hobby} />
           </div>
         ))}
       </div>
-
-
     </main>
   );
 }
