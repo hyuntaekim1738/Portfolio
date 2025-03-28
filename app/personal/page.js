@@ -97,7 +97,7 @@ export default function Personal() {
   return (
     
     <main className="flex-grow p-28 bg-white min-h-screen px-8">
-      <h1 className="sticky top-16 z-50 text-5xl font-extrabold text-gray-900 text-center mb-12">
+      <h1 className="w-screen -ml-8 bg-white/80 sticky top-14 z-50 text-5xl font-extrabold text-gray-900 text-center mb-12 py-6 backdrop-blur-sm border-b border-gray-200">
         My Hobbies
       </h1>
       <div className="flex flex-wrap justify-center gap-8">
